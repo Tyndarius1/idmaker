@@ -155,7 +155,7 @@ background-color: #4CAF50; /* Focus color */
             Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
-                text: 'Incorrect email or password!',
+                text: 'These credentials do not match our records',
                 position: 'top-end',  /* Position to top-right */
                 showConfirmButton: false, /* Hide confirm button */
                 timer: 3000, /* Auto close after 3 seconds */

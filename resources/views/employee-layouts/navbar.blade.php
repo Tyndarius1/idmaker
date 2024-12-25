@@ -2,22 +2,22 @@
     <nav class="nav container">
         <div class="mlg-logo">
             <img src="{{ asset('img/mlg.png')}}" alt="">
-            <a href="{{ URL('/admin-home') }}" class="nav__logo">MLG College of Learning</a>
+            <a href="{{ URL('/admin') }}" class="nav__logo">MLG College of Learning</a>
         </div>
 
 
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="{{ URL('admin-home')}}" class="nav__link">Home</a>
+            <a href="{{ URL('admin')}}" class="nav__link">Home</a>
           </li>
 
           <li class="nav__item">
-            <a href="#" class="nav__link">Students</a>
+            <a href="{{ URL('student')}}" class="nav__link">Students</a>
           </li>
 
           <li class="nav__item">
-            <a href="#" class="nav__link">Employees</a>
+            <a href="{{ URL('employee')}}" class="nav__link">Employees</a>
           </li>
 
 

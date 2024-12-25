@@ -6,8 +6,8 @@
    </head>
    <body>
 
-    @include('layouts.navbar')
-    @include('layouts.footer')
+    @include('admin-layouts.navbar')
+    @include('admin-layouts.footer')
     @yield('content')
 
 
